@@ -1,0 +1,24 @@
+/* https://bennettfeely.com/clippy/ */
+
+.container{
+    background-color: chocolate;
+    height:1500px ;
+    width:100%;
+    position: absolute;
+    
+}
+
+.cubo{
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    background-image: url('./woman-918614_1280.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+
+    width:100%;
+    height: 700px;
+    /* clip-path: inset(90px 50px 160px 90px); */
+    /* clip-path:circle(140px) */
+    /* clip-path: ellipse(190px 120px); */
+    /* clip-path: polygon(50% 0,100% 50%,50% 100%,0 50%); */
+    
+}

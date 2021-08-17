@@ -1,0 +1,105 @@
+/*
+
+grid container es el padre  
+
+grid lines lineas verticales y horizontales
+
+grid track columnas o filas  
+
+grid cell una celda  
+
+grid area un area de varias celdas
+
+grid items lo que va dentro del container los hijos 
+
+*/
+
+ .container{
+  border:3px solid black;
+  width:500px;
+  height: 500px;
+  display:grid;
+  grid-template-columns:repeat(4,25%);
+  grid-template-rows: repeat(4,1fr);
+  /* grid-gap:3px; 
+   row-gap:3px ;
+  column-gap:3px; */
+
+  grid-auto-rows: 100px;
+  grid-auto-columns:100px ; 
+}
+
+.box{
+  border:1px solid black;
+} 
+
+/* 
+.box1{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start:1 ;
+  grid-row-end:3 ;
+  background-color: crimson;
+}
+.box5{
+  grid-row:3/5; 
+  grid-column:3/5 ;
+  background-color: darkmagenta;
+}
+.box2{
+ grid-area:inicioFila,inicioColumna,finalFila,finalColumna  
+  grid-area:3/1/5/3;
+  background-color: limegreen;
+}
+.box3{
+  grid-area:5/1/6/5;
+  height: 90px;
+  background-color: goldenrod;
+}  */
+
+
+/* ...............................*/
+
+.container{
+  grid-template-areas:
+  "header header  header header"
+  "main main main aside"
+  "main main main aside"
+  "footer footer footer footer"
+
+}
+
+.box1,
+.box2,
+.box3,
+.box4{
+  grid-area:header;
+}
+.box5,
+.box6,
+.box7,
+.box9,
+.box10,
+.box11{
+  grid-area: main;
+}
+.box8,
+.box12{
+  grid-area:aside;
+}
+.box13,
+.box14,
+.box15,
+.box16{
+  grid-area:footer;
+}
+
+
+/* @media(min-widht:4545px){
+
+
+  grid-template-areas:
+  
+  "header header header . "   //segun las columnas que haya le damos tantos aqui si nos dejamos una palabra sin poner porque quermos cortar un cacho lo sustitumos por . 
+  "main main main side" 
+  "footer footer footer footer" */

@@ -1,0 +1,16 @@
+
+div{
+   /* margin-top: 130px;
+   margin-left:30px;
+   margin-bottom:40px;
+   margin-right: 40px; */
+
+   margin:0 20p 0 0;
+}
+h1{
+    border:3px solid rgb(158, 25, 25);
+    padding-top: 20px;
+}
+header{
+    border:3px solid black;
+}

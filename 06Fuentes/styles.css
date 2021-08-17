@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family:"original";
+    src: url('./PaletteMosaic-Regular.ttf');
+}
+
+h1{
+    font-family: "original";
+    font-size: 40px;
+    font-weight: bolder;
+    color:green;
+    
+}
+a{
+    text-decoration: none;
+    color:darkgreen;
+    font-weight: bolder;
+    font-size: 20px;
+}

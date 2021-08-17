@@ -1,0 +1,33 @@
+/*cuando los selectores tienen la misma categoría , predomina el último*/
+
+/*Por orden de jerarquia las prioridades de los selectores 
+son los siguientes 
+
+
+1-Etiquetas
+2-Clases
+3-Identificadores o id 
+4-Estilos en linea 
+5- los famosos !importants
+
+
+
+*/
+
+
+
+
+
+.titulo{
+    color:red;
+}
+
+h1 {
+    color:blue !important;
+   
+}
+
+#titulo{
+    color:green;
+}
+

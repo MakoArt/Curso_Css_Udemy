@@ -1,0 +1,47 @@
+/*
+transition:  
+propiedad   
+duracion   
+delay  
+timing function :
+(ease desacelerar,
+linear lineal,
+ease-in acelera poco a poco,
+ease-out desacelera poco a poco,
+ease-in-out lento-rapido-lento)
+*/
+
+
+/*ANIMACIONES*/
+/* animation: name duration timing-function delay iteration-count animation-fill-mode(none,forwards,backwards,both); */
+
+
+div{
+    width:200px;
+    height: 200px;
+    background-color: darkorange;
+}
+ /* div:hover{
+    background-color: chartreuse;
+    transition:background-color 1s 0s ease-in;
+} */
+/* div:active{
+    transform:rotateZ(90deg) ;
+    transition:transform 4s 0s linear;
+}  */
+
+/* div:hover{
+   transform:scale(0.5, 0.2);
+   transition:transform 3s 0s linear;
+} */
+
+/* div:hover{
+  transform: translate(100px , 80px);
+  transition:transform 4s 0s linear;
+} */
+ 
+ /* div:hover{
+    transform:skew(90deg , 20deg); 
+    transition: transform 4s 0s linear;
+}  */
+

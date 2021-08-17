@@ -1,0 +1,72 @@
+
+/*TAMAÑOS STANDARD DE LOS DISPOSITIVOS
+
+XS  <576PX  moviles minis
+SMALL >= 576PX movil standard 
+MEDIUM >=768PX tablet 
+LARGE  >=992px tablet grande o escritorio 
+EXTRA LARGE >=1200 escritorio 
+EXTRA EXTRA LARGE >=1400PX  super escritorio  
+
+
+
+*/
+body{
+    background-color: #994137;
+    width:89%;
+    height: 640px;
+}
+h1{
+    font-size: 28px;
+    background-color: #E6766A;
+    text-align: center;
+}
+h2{
+    background-color: #FF9A8F;
+}
+h3{
+    background-color: #FFBB8F;
+}
+p{
+    font-size: 20px;
+}
+main{
+    background-color: #E6766A;
+    text-align: center;
+    width:98%;
+}
+footer{
+    background-color: #E6766A;
+    width:98%;
+    height: 400px;
+    display:block;
+
+}
+footer div{
+    width:93%;
+    height: 150px;
+    background-color:#FF9A8F ;
+    margin: 5%;
+    
+
+}
+
+/*@media(min-width:629px) and (max-width:900px){
+
+}
+@media(min-width:901px) and (max-width:1500px){
+    
+} */
+
+@media(min-width:629px){
+    h1{font-size: 40px;}
+    h2{font-size: 30px;}
+    h3{font-size:30px;}
+    p{font-size:30px}
+    footer div{height: 230px;}
+    footer{height:500px ;}
+}
+
+@media(min-width:900px){
+    h2{background-color:#289969 ;}
+}

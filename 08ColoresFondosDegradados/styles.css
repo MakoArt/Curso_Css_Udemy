@@ -1,0 +1,46 @@
+/*COLORES
+
+RGB  0 168 157
+RGBA 0 168 157 1
+HSL  176 100 66
+HEXADECIMAL   #00A89D
+
+
+
+*/
+/* 
+div{
+    width:500px;
+    height: 500px;
+    background-color:rgb(13, 110, 104);
+    
+
+   
+} */
+
+
+/*FONDOS*/
+
+/* div{
+    width: 500px;
+    height: 500px;
+    background-image: url('./_s_a12Cb12Cc12Cd12Ce0f0g64h454D2AECFFE4ECFFE4iABj0k64l1D3m1D3.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-x: -90px;
+    
+   
+} */
+
+
+/*DEGRADADOS*/
+
+
+div{
+    width: 500px;
+    height: 500px;
+    /* background: linear-gradient(45deg,green ,rgb(70, 2, 55)); */
+    background:-webkit-radial-gradient( left,circle,red 50%,orange 50%,green,rgb(247, 0, 255));
+    /*Se puede poner circle o ellipse*/
+}
+

@@ -1,0 +1,54 @@
+/*
+Flexbox trabaja con dos direcciones 
+Main axis :es el eje de las x 
+Cross axis :es el eje de las y 
+
+*/
+
+.container{
+  width:500px;
+  height: 500px;
+  border:3px solid black;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  /* flex-wrap: wrap; */
+  /* align-content:center; */
+}
+
+.box{
+  border:1px solid black;
+  width:100px;
+  height: 100px;
+}
+.box1{
+  background-color:goldenrod;
+  flex-shrink:2;
+}
+.box2{
+  background-color: darkblue;
+  flex-grow:8;
+}
+.box3{
+  background-color: lightcoral;
+  flex-grow: 1;
+  flex-basis:200px;
+}
+.box4{
+  background-color: seagreen;
+}
+.box5{
+  background-color:cornflowerblue;
+}
+.box6{
+  background-color:darkturquoise;
+  align-self:flex-end;
+  order:1;
+}
+.box7{
+  background-color:darkred;
+}
+.box8{
+  background-color:mediumaquamarine;
+}

@@ -1,0 +1,52 @@
+/*pseudoclases*/
+
+
+button{
+background-color: green;
+padding:9px;
+border-radius: 9px;
+}
+button:hover{
+    background-color: chartreuse;
+    padding:20px;
+    color:blue;
+    font-weight: bolder;
+}
+button:active{
+    background-color: pink;
+}
+
+#texto:target{
+    color:blue;
+}
+#textoRojo:target{
+    color:red;
+}
+
+input:focus{
+    background-color: aqua;
+}
+
+
+/*pseudoelementos*/
+
+p::selection{
+    background-color: chocolate;
+}
+p::first-line{
+    background-color: aquamarine;
+    font-size: 59px;
+}
+p::first-letter{
+    font-size: 59px;
+    color:red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p::before{
+    content:'Soy un texto previo.'
+}
+p::after{
+    content:'Soy el cierre del texto.';
+    font-size:40px; 
+    color:yellow;
+}

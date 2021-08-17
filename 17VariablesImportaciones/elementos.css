@@ -1,0 +1,5 @@
+div{
+    width:var(--anchuraCajas);
+    height: var(--alturaCajas);
+    background-color: var(--colorCajas);
+}

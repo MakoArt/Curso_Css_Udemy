@@ -1,0 +1,39 @@
+/*SELECTORES AVANZADOS*/
+
+/* *{
+   color:blue;
+   margin:30px;
+   font-size: 30px;
+} */
+
+
+/* h1,h2,p{
+    color:blue;
+} */
+
+/* header h1{
+    color:green;
+} */
+
+/*Selectores hijos*/
+
+
+/* p>span{
+    color:pink;
+} */
+
+
+/*Selector abyacente*/
+
+h1 + h2 {color:indigo;}
+
+
+/*Selectores hermanos */
+
+h1~h2{color:tomato;}
+
+/*Selectores de atributo*/
+
+input[type="email"]{
+    background-color: green;
+}
